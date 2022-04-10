@@ -7,24 +7,35 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.container > * {
-    padding: 0 clamp(30px, 10vw, 100px);
-}
-
 nav {
     height: 70px;
     box-shadow: 0 3px 7px 0 #0000001A;
     display: flex;
     align-items: center;
+    padding: 0 clamp(30px, 10vw, 100px);
 }
 
 #logo {
     height: 30px;
 }
 
+.container > section {
+    padding-left: clamp(30px, 10vw, 100px);
+    padding-right: clamp(30px, 10vw, 100px);
+}
+
+.container > section:first-of-type {
+    margin-top: 70px;
+}
+.container > section:not(:first-of-type) {
+    padding-top: 50px;
+}
+.container > section:last-of-type {
+    padding-bottom: 70px;
+}
+
 #hero-image {
     width: 100%;
-    padding: 50px clamp(30px, 10vw, 100px);
     display: block;
     margin: 0 auto;
 }
@@ -32,8 +43,33 @@ nav {
 h1 {
     font-size: 36px;
     font-weight: 600;
+    margin-top: 28px;
 }
 
 #hero p {
     font-weight: 300;
+}
+
+.card {
+    width: 175px;
+}
+
+.preview {
+    border-radius: 10px;
+}
+
+.tally {
+    margin-top: 10px;
+}
+
+.secondary-text {
+    color: #918E9B;
+}
+
+.middle-dot {
+    font-weight: bolder;
+}
+
+.card p {
+    margin-top: 8px;
 }
