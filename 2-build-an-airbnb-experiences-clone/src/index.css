@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+}
+
+nav {
+    height: 70px;
+    box-shadow: 0 3px 7px 0 #0000001A;
+    display: flex;
+    align-items: center;
+    padding: 0 clamp(30px, 10vw, 100px);
+}
+
+#logo {
+    height: 30px;
+}
+
+#hero-image {
+    width: 100%;
+    padding: 50px clamp(30px, 10vw, 100px);
+}
