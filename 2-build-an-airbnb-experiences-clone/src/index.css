@@ -51,14 +51,14 @@ h1 {
 }
 
 .card {
-    width: 175px;
+    width: 260px;
 }
 
 .preview {
     border-radius: 10px;
 }
 
-.tally {
+.stats {
     margin-top: 10px;
 }
 
